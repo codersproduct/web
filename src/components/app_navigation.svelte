@@ -34,7 +34,19 @@
     list-style: none;
   }
 
-  nav ul li + li {
-    margin-left: 32px;
+  @media (max-width: 480px) {
+    li {
+      font-size: 14px;
+      
+    }
+    li + li {
+      margin-left: 16px;
+    }
+  }
+
+  @media (min-width: 481px) {
+    li + li {
+      margin-left: 32px;
+    }
   }
 </style>
