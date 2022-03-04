@@ -2,4 +2,10 @@
   <title>codersproduct</title>
 </svelte:head>
 
-<h1>codersproduct</h1>
+<script>
+  import SectionBrand from "src/components/home/section-brand.svelte";
+  import SectionFeature from "src/components/home/section-feature.svelte";
+</script>
+
+<SectionBrand />
+<SectionFeature />
