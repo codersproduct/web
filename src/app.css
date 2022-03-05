@@ -71,5 +71,19 @@ textarea:focus {
 
 button,
 input[type="submit"] {
+  width: fit-content;
+
+  padding: .75em 1em;
+
   cursor: pointer;
+
+  font-size: inherit;
+
+  color: white;
+
+  background-color: var(--color-secondary);
+
+  border: none;
+
+  border-radius: 8px;
 }

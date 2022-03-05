@@ -74,18 +74,12 @@
     border: none;
 
     background: transparent;
-  }
-
-  input[type="submit"] {
-    margin-top: 16px;
-
-    width: fit-content;
 
     padding: 0;
+  }
 
-    color: var(--color-secondary);
-
-    background-color: transparent;
+  button:hover {
+    text-decoration: underline;
   }
 
   @media (max-width: 480px) {
@@ -98,7 +92,7 @@
     }
 
     input[type="submit"] {
-      align-self: center;
+      width: 100%;
     }
   }
 
