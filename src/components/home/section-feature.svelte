@@ -19,8 +19,8 @@
 </script>
 
 <section>
-  <ol>
-    {#each items as { headline, description, label_more, href_more }}
+  <ul>
+    {#each items as { headline, description, href_more }}
       <li>
         <h2>
           { headline }
@@ -35,11 +35,11 @@
         </div>
       </li>
     {/each}
-  </ol>
+  </ul>
 </section>
 
 <style>
-  ol {
+  ul {
     display: flex;
     
     width: 100%;
@@ -92,7 +92,7 @@
   }
 
   @media (max-width: 480px) {
-    ol {
+    ul {
       flex-direction: column;
     }
 
@@ -110,7 +110,7 @@
   }
   
   @media(min-width: 481px) {
-    ol {
+    ul {
       justify-content: space-evenly;
     }
 
