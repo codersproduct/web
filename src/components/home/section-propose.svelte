@@ -25,10 +25,14 @@
   }
 
   h2 {
+    text-align: center;
+    
     line-height: 1.3;
   }
 
   p {
+    text-align: center;
+    
     line-height: 1.5;
   }
 
