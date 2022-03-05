@@ -65,22 +65,6 @@
     height: 164px;
   }
 
-  button {
-    font-size: 16px;
-
-    color: var(--color-secondary);
-
-    border: none;
-
-    background: transparent;
-
-    padding: 0;
-  }
-
-  button:hover {
-    text-decoration: underline;
-  }
-
   @media (max-width: 480px) {
     h1 {
       font-size: 28px;
