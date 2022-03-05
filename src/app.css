@@ -87,3 +87,11 @@ input[type="submit"] {
 
   border-radius: 8px;
 }
+
+i {
+  font-style: normal;
+}
+
+i svg {
+  fill: var(--color-body-500);
+}

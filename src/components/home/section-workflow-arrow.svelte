@@ -2,9 +2,9 @@
 
 <style>
   svg {
-    width: 36px;
+    width: 32px;
 
-    height: 36px;
+    height: 32px;
     
     fill: var(--color-body-100);
   }
