@@ -1,6 +1,10 @@
+<script>
+  const title = "<product />"
+</script>
+
 <h1>
   <a href="/">
-    codersproduct
+    { title }
   </a>
 </h1>
 
@@ -13,13 +17,13 @@
 
   @media (max-width: 480px) {
     h1 {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   @media (min-width: 481px) {
     h1 {
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 </style>
