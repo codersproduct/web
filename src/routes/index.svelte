@@ -4,6 +4,7 @@
 
 <script>
   import SectionBrand from "src/components/home/section-brand.svelte";
+  import SectionContact from "src/components/home/section-contact.svelte";
   import SectionFeature from "src/components/home/section-feature.svelte";
   import SectionPropose from "src/components/home/section-propose.svelte";
   import SectionWorkflow from "src/components/home/section-workflow.svelte";
@@ -13,3 +14,4 @@
 <SectionFeature />
 <SectionPropose />
 <SectionWorkflow />
+<SectionContact />
