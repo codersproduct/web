@@ -31,10 +31,6 @@
 
   p {
     text-align: center;
-    
-    line-height: 1.4;
-
-    color: var(--color-body-500);
   }
 
   @media (max-width: 480px) {

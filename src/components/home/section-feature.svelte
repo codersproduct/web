@@ -115,7 +115,7 @@
 
     justify-content: flex-end;
 
-    margin: 8px;
+    margin: 4px;
   }
 
   li .text {
@@ -130,14 +130,10 @@
 
   li p {
     text-align: center;
-
-    color: var(--color-body-500);
-    
-    line-height: 1.6;
   }
 
   li a {
-    margin-top: 16px;
+    margin-top: 8px;
   }
 
   @media (max-width: 480px) {

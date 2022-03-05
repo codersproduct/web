@@ -36,10 +36,6 @@
 
   p {
     margin-top: 4px;
-
-    color: var(--color-body-500);
-
-    line-height: 1.4;
   }
 
   form {
@@ -48,8 +44,6 @@
     flex-direction: column;
 
     max-width: 576px;
-
-    margin-top: 4px;
   }
 
   input,
@@ -85,8 +79,6 @@
     }
 
     p {
-      margin-top: 8px;
-
       font-size: 18px;
     }
   }

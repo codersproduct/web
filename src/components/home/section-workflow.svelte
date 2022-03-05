@@ -179,13 +179,9 @@
   }
 
   p {
-    margin-top: 8px;
+    margin-top: 4px;
 
     text-align: center;
-
-    color: var(--color-body-500);
-
-    line-height: 1.5;
   }
 
   @media (max-width: 480px) {
