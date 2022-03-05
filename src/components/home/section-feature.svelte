@@ -1,29 +1,40 @@
+<script>
+  const items = [
+    {
+      headline: "작은 팀.",
+      description: "우리는 민첩하게 움직입니다. 분명한 책임에 따라 빠르게 결정하며 커뮤니케이션 비용을 아낍니다.",
+      href_more: "/team",
+    },
+    {
+      headline: "코드지향적.",
+      description: "불필요한 문서 작업을 최소화합니다. 비결은 codersproduct의 투명한 개발 방법입니다.",
+      href_more: "/dev",
+    },
+    {
+      headline: "안티-매너리즘.",
+      description: "훌륭한 제품은 적극적인 몰입에서 탄생합니다. 우리 개발자들은 \"더 좋은 것\"을 알고 있습니다.",
+      href_more: "/values",
+    }
+  ]
+</script>
+
 <section>
   <ol>
-    <li>
-      <h2>
-        작은 팀.
-      </h2>
-      <p>
-        우리는 민첩하게 움직입니다. 분명한 책임에 따라 빠르게 결정하며 커뮤니케이션 비용을 아낍니다.
-      </p>
-    </li>
-    <li>
-      <h2>
-        코드지향적.
-      </h2>
-      <p>
-        불필요한 문서 작업을 최소화합니다. 비결은 codersproduct의 투명한 개발 방법입니다.
-      </p>
-    </li>
-    <li>
-      <h2>
-        안티-매너리즘.
-      </h2>
-      <p>
-        훌륭한 제품은 적극적인 몰입에서 탄생합니다. 우리 개발자들은 "더 좋은 것"을 알고 있습니다.
-      </p>
-    </li>
+    {#each items as { headline, description, label_more, href_more }}
+      <li>
+        <h2>
+          { headline }
+        </h2>
+        <div class="text">
+          <p>
+            { description }
+          </p>
+          <a href={ href_more }>
+            자세히 알아보기
+          </a>
+        </div>
+      </li>
+    {/each}
   </ol>
 </section>
 
@@ -60,12 +71,24 @@
     margin-bottom: 8px;
   }
 
-  p {
-    height: 100%;
+  li .text {
+    display: flex;
 
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 100%;
+  }
+
+  li p {
     text-align: center;
 
     line-height: 1.6;
+  }
+
+  li a {
+    margin-top: 16px;
   }
 
   @media (max-width: 480px) {
