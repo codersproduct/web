@@ -17,6 +17,8 @@
   .description {
     margin-top: 4px;
 
+    color: var(--color-body-500);
+    
     line-height: 1.6;
   }
 

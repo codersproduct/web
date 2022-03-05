@@ -84,6 +84,8 @@
   li p {
     text-align: center;
 
+    color: var(--color-body-500);
+    
     line-height: 1.6;
   }
 
