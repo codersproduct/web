@@ -1,5 +1,5 @@
 <section>
-  <h1 class="title">Coder's Product</h1>
+  <h1 class="title">Coder's Product.</h1>
   <p class="description">귀하의 빛나는 아이디어를 검증하는 가장 빠른 방법입니다.</p>
 </section>
 

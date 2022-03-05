@@ -23,7 +23,7 @@
       description: "",
     },
     {
-      title: "테스트 및 피드백",
+      title: "테스트 및 피드백.",
       description: "",
     }
   ]
