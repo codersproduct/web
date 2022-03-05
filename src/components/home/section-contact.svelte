@@ -1,8 +1,4 @@
 <script>
-  const onEmailButtonClicked = () => {
-    window.open("mailto:developer@codersproduct.com")
-  }
-
   const onSubmitted = () => {}
 </script>
 
@@ -11,8 +7,11 @@
     귀하의 아이디어를 들려주세요.
   </h1>
   <p>
-    codersproduct는 모든 견해와 발상을 존중합니다. 혹은
-    <button on:click={onEmailButtonClicked}>developer@codersproduct.com</button>으로 직접 연락하세요.
+    막연해도 좋습니다. 소중한 가능성을 성급하게 포기하지 마세요.
+    <br />
+    아무도 모릅니다. 머릿속이 아닌 눈앞의 현실에서 확인하기 전까지는.
+    <br />
+    codersproduct가 당신을 돕습니다.
   </p>
   <form on:submit|preventDefault={onSubmitted}>
     <input type="text" placeholder="이름을 입력해 주세요." />
