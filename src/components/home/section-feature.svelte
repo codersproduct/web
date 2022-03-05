@@ -1,6 +1,4 @@
 <script>
-import Index from "src/routes/index.svelte";
-
   const items = [
     {
       headline: "작은 팀.",
