@@ -28,10 +28,6 @@
 </section>
 
 <style>
-  section {
-    padding: 0 16px;
-  }
-
   ol {
     display: flex;
     
@@ -53,10 +49,20 @@
   }
 
   li h2 {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-end;
+
+    height: 100%;
+
     margin-bottom: 8px;
   }
 
   p {
+    height: 100%;
+
     text-align: center;
 
     line-height: 1.6;
