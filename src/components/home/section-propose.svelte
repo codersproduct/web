@@ -9,7 +9,7 @@
     <br />
     아무도 모릅니다. 머릿속이 아닌 눈앞의 현실에서 확인하기 전까지는.
     <br />
-    <b>codersproduct</b>가 당신을 돕습니다.
+    codersproduct가 당신을 돕습니다.
   </p>
 </section>
 
@@ -35,6 +35,8 @@
     text-align: center;
     
     line-height: 1.5;
+
+    color: var(--color-body-500);
   }
 
   @media (max-width: 480px) {
@@ -55,13 +57,7 @@
     p {
       margin-top: 8px;
 
-      font-size: 20px;
-
-      color: var(--color-body-500);
-    }
-
-    b {
-      color: var(--color-body-700);
+      font-size: 18px;
     }
   }
 </style>
