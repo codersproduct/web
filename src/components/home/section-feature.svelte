@@ -74,6 +74,10 @@ import Index from "src/routes/index.svelte";
 </section>
 
 <style>
+  section {
+    padding: 144px 0;
+  }
+
   ul {
     display: flex;
     
@@ -92,6 +96,8 @@ import Index from "src/routes/index.svelte";
     align-items: center;
 
     width: 100%;
+
+    height: 200px;
   }
 
   li i {
@@ -141,10 +147,6 @@ import Index from "src/routes/index.svelte";
       flex-direction: column;
     }
 
-    li {
-      height: 200px;
-    }
-
     li h2 {
       font-size: 28px;
     }
@@ -157,10 +159,6 @@ import Index from "src/routes/index.svelte";
   @media(min-width: 481px) {
     ul {
       justify-content: space-evenly;
-    }
-
-    li {
-      height: 480px;
     }
 
     li h2 {

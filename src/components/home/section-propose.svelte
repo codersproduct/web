@@ -21,7 +21,8 @@
 
     justify-content: center;
 
-    height: 480px;
+    padding-top: 144px;
+    padding-bottom: 64px;
   }
 
   h2 {

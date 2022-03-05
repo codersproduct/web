@@ -125,6 +125,8 @@
     flex-direction: column;
 
     justify-content: center;
+
+    padding-bottom: 144px;
   }
 
   ol {

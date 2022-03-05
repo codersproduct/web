@@ -11,7 +11,7 @@
 
     justify-content: center;
 
-    height: 480px;
+    height: 512px;
   }
 
   .description {

@@ -30,9 +30,9 @@
 
     justify-content: center;
 
-    margin-top: 240px;
+    margin-top: 144px;
 
-    margin-bottom: 64px;
+    margin-bottom: 128px;
   }
 
   p {
