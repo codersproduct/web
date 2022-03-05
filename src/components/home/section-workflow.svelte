@@ -4,27 +4,27 @@
   const items = [
     {
       title: "요구 사항 분석.",
-      description: "",
+      description: "시작은 고객의 아이디어를 경청하는 일입니다. codersproduct가 도울 수 있는 방법을 모색합니다.",
     },
     {
       title: "검증 전략 구성.",
-      description: "",
+      description: "최우선 목표는 최소기능제품입니다. 단순한 장난감이 아니라, 가설을 실제적으로 논증할 수단입니다.",
     },
     {
       title: "핵심 기능 정의.",
-      description: "",
+      description: "가장 중요한 몇 가지의 기능만으로도 문제를 해결할 수 있어야 합니다. 우리는 지름길을 찾습니다.",
     },
     {
       title: "즉시 시작하는 개발.",
-      description: "",
+      description: "산만한 문서 작업은 최소화합니다. 디자인도 기다리지 않습니다. 곧바로 작동하는 제품을 만듭니다.",
     },
     {
       title: "일주일 단위의 배포.",
-      description: "",
+      description: "당신의 제품이 발전하는 모습을 자주 확인하세요. 완제품이란 불가능하기 때문입니다. 공개할 뿐입니다.",
     },
     {
       title: "테스트 및 피드백.",
-      description: "",
+      description: "제품은 고객과 사용자가 즉시 검토할 수 있습니다. 결과를 직접 확인하고 다음 단계를 준비하세요.",
     }
   ]
 </script>
@@ -154,6 +154,8 @@
     align-items: center;
 
     width: 100%;
+
+    padding: 0 16px;
   }
 
   li h2 {
@@ -174,6 +176,16 @@
     display: flex;
 
     justify-content: center;
+  }
+
+  p {
+    margin-top: 8px;
+
+    text-align: center;
+
+    color: var(--color-body-500);
+
+    line-height: 1.5;
   }
 
   @media (max-width: 480px) {
